@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+.cont{
+    width: 50%;
+    position: relative;
+    border-radius: 20px;
+    margin-top: 280px;
+    left: 300px;
+}
+.cont div{
+    position: relative;
+    width: 0;
+    height: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 145, 0);
+    
+}
+
+#angular{
+    animation: spinner 3.4s forwards;
+}
+img{
+    animation: moto 3.6s forwards;
+    height: 200px;
+}
+@keyframes spinner {
+    100%{
+        width: 100%;
+
+    }
+    
+
+}
+@keyframes moto {
+    100%{
+        margin-left:70%;
+
+    } }
